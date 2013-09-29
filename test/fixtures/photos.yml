@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyString
+  path: MyString
+  note: 1
+  tags: MyString
+  shot_date: 2013-08-31 19:09:45
+
+two:
+  name: MyString
+  description: MyString
+  path: MyString
+  note: 1
+  tags: MyString
+  shot_date: 2013-08-31 19:09:45

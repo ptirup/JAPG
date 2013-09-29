@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @photo.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @photo.description %>
+</p>
+
+<p>
+  <strong>Path:</strong>
+  <%= @photo.path %>
+</p>
+
+<p>
+  <strong>Note:</strong>
+  <%= @photo.note %>
+</p>
+
+<p>
+  <strong>Tags:</strong>
+  <%= @photo.tags %>
+</p>
+
+<p>
+  <strong>Shot date:</strong>
+  <%= @photo.shot_date %>
+</p>
+
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>
